@@ -39,3 +39,14 @@ gem 'spring',        group: :development
 # gem 'debugger', group: [:development, :test]
 
 gem 'foreman'
+
+group :test, :development do 
+  gem 'anticipate'
+  gem 'cucumber-rails', require: false
+  gem 'database_cleaner'
+  gem 'shoulda', require: false
+  gem 'capybara-screenshot'
+  gem 'timecop'
+  gem 'poltergeist'
+  gem 'ci_reporter'
+end
