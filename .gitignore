@@ -14,3 +14,9 @@
 # Ignore all logfiles and tempfiles.
 /log/*.log
 /tmp
+
+# Ignore all vim swap files
+/.*.sw*
+
+# Ignore forman current env
+.env
