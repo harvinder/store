@@ -16,7 +16,7 @@
 /tmp
 
 # Ignore all vim swap files
-/.*.sw*
+.*.sw*
 
 # Ignore forman current env
 .env
