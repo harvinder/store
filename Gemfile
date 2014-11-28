@@ -50,3 +50,5 @@ group :test, :development do
   gem 'poltergeist'
   gem 'ci_reporter'
 end
+
+gem 'activeadmin', github: 'activeadmin'
