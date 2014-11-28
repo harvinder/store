@@ -52,3 +52,4 @@ group :test, :development do
 end
 
 gem 'activeadmin', github: 'activeadmin'
+gem 'devise'
