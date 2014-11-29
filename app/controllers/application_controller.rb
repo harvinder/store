@@ -6,6 +6,10 @@ class ApplicationController < ActionController::Base
   protected
 
   def current_admin_user
-    nil
+    if current_user && current_user.is_a?( StoreAdmin )
+      current_user
+    else
+      nil
+    end
   end
 end
