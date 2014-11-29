@@ -30,6 +30,7 @@ ActiveAdmin.register User do
   end
 
   permit_params :email, :password, :password_confirmation
+  filter :email
 
   form do |f|
     f.semantic_errors *f.object.errors.keys
